@@ -53,7 +53,7 @@ export default function Home() {
 
           {/* Black overlay with centered text + arrow */}
           <div className="absolute inset-0 bg-black/80 flex flex-col items-center justify-center text-white">
-            <div className="mt-32 md:flex flex-col items-center hidden">
+            <div className="mt-28 md:flex flex-col items-center hidden">
               <h1 className="">Scroll Down</h1>
               <ArrowDown className="animate-bounce w-6 h-6 mt-4" />
             </div>
